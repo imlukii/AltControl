@@ -1941,6 +1941,6 @@ for i, v in pairs(getgenv().alts) do
             until (t0 + 1 / MaxFPS) < tick()
         end
     end
-else
+else do
     game.Players.LocalPlayer:Kick("An error has ocurred, please contact luki#0069")
-end)
+end
