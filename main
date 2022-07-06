@@ -945,6 +945,7 @@ if game.PlaceId == 2788229376 then
             end
             return res
         end
+    end
 
         -- Made by luki#0069
 
@@ -1714,7 +1715,6 @@ if game.PlaceId == 2788229376 then
 -- Scripts
         
 for i, v in pairs(getgenv().alts) do
-
     if v == game.Players.LocalPlayer.UserId then
 
         Clip = false
@@ -1937,10 +1937,9 @@ for i, v in pairs(getgenv().alts) do
         while true do
             local t0 = tick()
             RunService.Heartbeat:Wait()
-            repeat
+            repeat wait()
             until (t0 + 1 / MaxFPS) < tick()
         end
+        end
     end
-else do
-    game.Players.LocalPlayer:Kick("An error has ocurred, please contact luki#0069")
 end
