@@ -947,999 +947,1396 @@ if game.PlaceId == 2788229376 then
         end
     end
 
-        -- Made by luki#0069
+            -- Gui to Lua
+        -- Version: 3.2
 
         -- Instances:
 
-        local gui = Instance.new("ScreenGui")
-        local MainFrame = Instance.new("Frame")
-        local UICorner = Instance.new("UICorner")
+        local HoxLZwzeCYfVwOkTlmXO = Instance.new("ScreenGui")
+        local Main = Instance.new("Frame")
         local Sidebar = Instance.new("Frame")
-        local Sidebar_2 = Instance.new("Frame")
-        local UIGridLayout = Instance.new("UIGridLayout")
-        local HomeButton = Instance.new("TextButton")
+        local UICorner = Instance.new("UICorner")
+        local Home = Instance.new("ImageButton")
+        local Settings = Instance.new("ImageButton")
+        local Info = Instance.new("ImageButton")
+        local Teleports = Instance.new("ImageButton")
+        local Cmds = Instance.new("ImageButton")
+        local Search = Instance.new("ImageButton")
         local UICorner_2 = Instance.new("UICorner")
-        local MainButton = Instance.new("TextButton")
-        local UICorner_3 = Instance.new("UICorner")
-        local TeleportsButton = Instance.new("TextButton")
-        local UICorner_4 = Instance.new("UICorner")
-        local SideButton = Instance.new("TextButton")
-        local UICorner_5 = Instance.new("UICorner")
-        local SettingsButton = Instance.new("TextButton")
-        local UICorner_6 = Instance.new("UICorner")
-        local UICorner_7 = Instance.new("UICorner")
-        local Pages = Instance.new("Frame")
-        local HomeSection = Instance.new("Frame")
-        local PlayerViewmodel = Instance.new("ImageLabel")
-        local UICorner_8 = Instance.new("UICorner")
+        local Sites = Instance.new("Frame")
+        local Home_2 = Instance.new("Frame")
         local Username = Instance.new("TextLabel")
-        local Credits1 = Instance.new("TextLabel")
-        local Credits2 = Instance.new("TextLabel")
-        local Version = Instance.new("TextLabel")
-        local MainSection = Instance.new("Frame")
-        local ScrollingFrame = Instance.new("ScrollingFrame")
-        local UIGridLayout_2 = Instance.new("UIGridLayout")
-        local OrdersTemplate = Instance.new("Frame")
+        local Rank = Instance.new("TextLabel")
+        local WhatsNew = Instance.new("TextLabel")
+        local watext = Instance.new("TextLabel")
+        local Teleports_2 = Instance.new("Frame")
+        local TextButton = Instance.new("TextButton")
+        local UICorner_3 = Instance.new("UICorner")
+        local TextButton_2 = Instance.new("TextButton")
+        local UICorner_4 = Instance.new("UICorner")
+        local TextButton_3 = Instance.new("TextButton")
+        local UICorner_5 = Instance.new("UICorner")
+        local TextButton_4 = Instance.new("TextButton")
+        local UICorner_6 = Instance.new("UICorner")
+        local TextButton_5 = Instance.new("TextButton")
+        local UICorner_7 = Instance.new("UICorner")
+        local TextButton_6 = Instance.new("TextButton")
+        local UICorner_8 = Instance.new("UICorner")
+        local TextButton_7 = Instance.new("TextButton")
         local UICorner_9 = Instance.new("UICorner")
-        local Viewport = Instance.new("ImageLabel")
+        local TextButton_8 = Instance.new("TextButton")
         local UICorner_10 = Instance.new("UICorner")
-        local username = Instance.new("TextLabel")
-        local PlayersCash = Instance.new("TextLabel")
-        local TpButton = Instance.new("TextButton")
+        local TextButton_9 = Instance.new("TextButton")
         local UICorner_11 = Instance.new("UICorner")
-        local TeleportsSection = Instance.new("Frame")
-        local Title = Instance.new("TextLabel")
-        local Places = Instance.new("Frame")
-        local UIGridLayout_3 = Instance.new("UIGridLayout")
-        local Bank = Instance.new("TextButton")
+        local TextButton_10 = Instance.new("TextButton")
         local UICorner_12 = Instance.new("UICorner")
-        local BankTop = Instance.new("TextButton")
+        local TextButton_11 = Instance.new("TextButton")
         local UICorner_13 = Instance.new("UICorner")
-        local Vault = Instance.new("TextButton")
+        local TextButton_12 = Instance.new("TextButton")
         local UICorner_14 = Instance.new("UICorner")
-        local Admin = Instance.new("TextButton")
-        local UICorner_15 = Instance.new("UICorner")
-        local AdminCell = Instance.new("TextButton")
-        local UICorner_16 = Instance.new("UICorner")
-        local Basketball = Instance.new("TextButton")
-        local UICorner_17 = Instance.new("UICorner")
-        local Jail = Instance.new("TextButton")
-        local UICorner_18 = Instance.new("UICorner")
-        local Grave = Instance.new("TextButton")
-        local UICorner_19 = Instance.new("UICorner")
-        local Club = Instance.new("TextButton")
-        local UICorner_20 = Instance.new("UICorner")
-        local safezone1 = Instance.new("TextButton")
-        local UICorner_21 = Instance.new("UICorner")
-        local safezone2 = Instance.new("TextButton")
-        local UICorner_22 = Instance.new("UICorner")
-        local safezone3 = Instance.new("TextButton")
-        local UICorner_23 = Instance.new("UICorner")
-        local SideSection = Instance.new("Frame")
+        local Title = Instance.new("TextLabel")
+        local Cmds_2 = Instance.new("Frame")
+        local Username_2 = Instance.new("TextLabel")
+        local Rank_2 = Instance.new("TextLabel")
+        local Rank_3 = Instance.new("TextLabel")
+        local Rank_4 = Instance.new("TextLabel")
+        local Rank_5 = Instance.new("TextLabel")
+        local Rank_6 = Instance.new("TextLabel")
+        local Rank_7 = Instance.new("TextLabel")
+        local Rank_8 = Instance.new("TextLabel")
+        local Rank_9 = Instance.new("TextLabel")
+        local Rank_10 = Instance.new("TextLabel")
+        local Rank_11 = Instance.new("TextLabel")
+        local Rank_12 = Instance.new("TextLabel")
+        local Rank_13 = Instance.new("TextLabel")
+        local Rank_14 = Instance.new("TextLabel")
+        local Rank_15 = Instance.new("TextLabel")
+        local Rank_16 = Instance.new("TextLabel")
+        local Info_2 = Instance.new("Frame")
+        local Username_3 = Instance.new("TextLabel")
+        local Rank_17 = Instance.new("TextLabel")
+        local Settings_2 = Instance.new("Frame")
+        local Username_4 = Instance.new("TextLabel")
+        local Rank_18 = Instance.new("TextLabel")
+        local Search_2 = Instance.new("Frame")
         local Title_2 = Instance.new("TextLabel")
-        local Fly = Instance.new("TextButton")
-        local UICorner_24 = Instance.new("UICorner")
-        local Cashaura = Instance.new("TextButton")
-        local UICorner_25 = Instance.new("UICorner")
-        local manualtp = Instance.new("TextButton")
-        local UICorner_26 = Instance.new("UICorner")
-        local ForceReset = Instance.new("TextButton")
-        local UICorner_27 = Instance.new("UICorner")
-        local Noclip = Instance.new("TextButton")
-        local UICorner_28 = Instance.new("UICorner")
-        local Fakemacro = Instance.new("TextButton")
-        local UICorner_29 = Instance.new("UICorner")
-        local SettingsSection = Instance.new("Frame")
+        local TextBox = Instance.new("TextBox")
+        local UICorner_15 = Instance.new("UICorner")
+        local searchBTN = Instance.new("TextButton")
+        local UICorner_16 = Instance.new("UICorner")
+        local username = Instance.new("TextLabel")
+        local cash = Instance.new("TextLabel")
+        local UserIMG = Instance.new("ImageLabel")
+        local UICorner_17 = Instance.new("UICorner")
+        local wanted = Instance.new("TextLabel")
         local Title_3 = Instance.new("TextLabel")
-        local Text1 = Instance.new("TextLabel")
-        local UICorner_30 = Instance.new("UICorner")
-        local ChangeKeybind = Instance.new("TextBox")
-        local UICorner_31 = Instance.new("UICorner")
-        local Text1_2 = Instance.new("TextLabel")
-        local UICorner_32 = Instance.new("UICorner")
-        local ChangeFlySpeed = Instance.new("TextBox")
-        local UICorner_33 = Instance.new("UICorner")
-        local CopyDiscord = Instance.new("TextButton")
-        local UICorner_34 = Instance.new("UICorner")
-        local CopyGroup = Instance.new("TextButton")
-        local UICorner_35 = Instance.new("UICorner")
 
-        --Properties:
+        -- Properties:
 
-        gui.Name = "gui"
-        gui.Parent = game.CoreGui
-        gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+        HoxLZwzeCYfVwOkTlmXO.Name = RandomVariable(20)
+        HoxLZwzeCYfVwOkTlmXO.Parent = game.CoreGui
+        HoxLZwzeCYfVwOkTlmXO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-        MainFrame.Name = "MainFrame"
-        MainFrame.Parent = gui
-        MainFrame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        MainFrame.BorderSizePixel = 0
-        MainFrame.Position = UDim2.new(0.323943675, 0, 0.268445879, 0)
-        MainFrame.Size = UDim2.new(0, 478, 0, 294)
-        MainFrame.Draggable = true
-        MainFrame.Active = true
-
-        UICorner.Parent = MainFrame
+        Main.Name = "Main"
+        Main.Parent = HoxLZwzeCYfVwOkTlmXO
+        Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+        Main.BorderSizePixel = 0
+        Main.Position = UDim2.new(0.168555707, 0, 0.392983228, 0)
+        Main.Size = UDim2.new(0, 606, 0, 338)
 
         Sidebar.Name = "Sidebar"
-        Sidebar.Parent = MainFrame
-        Sidebar.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Sidebar.Size = UDim2.new(0, 87, 0, 294)
+        Sidebar.Parent = Main
+        Sidebar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+        Sidebar.BorderSizePixel = 0
+        Sidebar.Size = UDim2.new(0, 65, 0, 338)
 
-        Sidebar_2.Name = "Sidebar"
-        Sidebar_2.Parent = Sidebar
-        Sidebar_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Sidebar_2.Position = UDim2.new(0.068965517, 0, 0.0204081628, 0)
-        Sidebar_2.Size = UDim2.new(0, 81, 0, 286)
+        UICorner.CornerRadius = UDim.new(0, 4)
+        UICorner.Parent = Sidebar
 
-        UIGridLayout.Parent = Sidebar_2
-        UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-        UIGridLayout.CellSize = UDim2.new(0, 75, 0, 40)
+        Home.Name = "Home"
+        Home.Parent = Sidebar
+        Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Home.BackgroundTransparency = 1.000
+        Home.Position = UDim2.new(0.230769232, 0, 0.041420117, 0)
+        Home.Size = UDim2.new(0, 35, 0, 35)
+        Home.Image = "rbxassetid://9264541932"
 
-        HomeButton.Name = "HomeButton"
-        HomeButton.Parent = Sidebar_2
-        HomeButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        HomeButton.BorderSizePixel = 0
-        HomeButton.Size = UDim2.new(0, 75, 0, 40)
-        HomeButton.Font = Enum.Font.GothamBlack
-        HomeButton.Text = "Home"
-        HomeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        HomeButton.TextSize = 20.000
+        Settings.Name = "Settings"
+        Settings.Parent = Sidebar
+        Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Settings.BackgroundTransparency = 1.000
+        Settings.Position = UDim2.new(0.230769232, 0, 0.855029583, 0)
+        Settings.Size = UDim2.new(0, 35, 0, 35)
+        Settings.Image = "rbxassetid://9264554833"
 
-        UICorner_2.Parent = HomeButton
+        Info.Name = "Info"
+        Info.Parent = Sidebar
+        Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Info.BackgroundTransparency = 1.000
+        Info.Position = UDim2.new(0.230769232, 0, 0.70710057, 0)
+        Info.Size = UDim2.new(0, 35, 0, 35)
+        Info.Image = "rbxassetid://9264635930"
 
-        MainButton.Name = "MainButton"
-        MainButton.Parent = Sidebar_2
-        MainButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        MainButton.BorderSizePixel = 0
-        MainButton.Size = UDim2.new(0, 75, 0, 40)
-        MainButton.Font = Enum.Font.GothamBlack
-        MainButton.Text = "Main"
-        MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        MainButton.TextSize = 20.000
+        Teleports.Name = "Teleports"
+        Teleports.Parent = Sidebar
+        Teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Teleports.BackgroundTransparency = 1.000
+        Teleports.Position = UDim2.new(0.230769232, 0, 0.195266277, 0)
+        Teleports.Size = UDim2.new(0, 35, 0, 35)
+        Teleports.Image = "rbxassetid://9264768136"
 
-        UICorner_3.Parent = MainButton
+        Cmds.Name = "Cmds"
+        Cmds.Parent = Sidebar
+        Cmds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Cmds.BackgroundTransparency = 1.000
+        Cmds.Position = UDim2.new(0.230769232, 0, 0.352071017, 0)
+        Cmds.Size = UDim2.new(0, 35, 0, 35)
+        Cmds.Image = "rbxassetid://9264822672"
 
-        TeleportsButton.Name = "TeleportsButton"
-        TeleportsButton.Parent = Sidebar_2
-        TeleportsButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        TeleportsButton.BorderSizePixel = 0
-        TeleportsButton.Size = UDim2.new(0, 75, 0, 40)
-        TeleportsButton.Font = Enum.Font.GothamBlack
-        TeleportsButton.Text = "TPs"
-        TeleportsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        TeleportsButton.TextSize = 20.000
+        Search.Name = "Search"
+        Search.Parent = Sidebar
+        Search.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Search.BackgroundTransparency = 1.000
+        Search.Position = UDim2.new(0.230769232, 0, 0.497041434, 0)
+        Search.Size = UDim2.new(0, 35, 0, 35)
+        Search.Image = "rbxassetid://9288309850"
 
-        UICorner_4.Parent = TeleportsButton
+        UICorner_2.CornerRadius = UDim.new(0, 4)
+        UICorner_2.Parent = Main
 
-        SideButton.Name = "SideButton"
-        SideButton.Parent = Sidebar_2
-        SideButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        SideButton.BorderSizePixel = 0
-        SideButton.Size = UDim2.new(0, 75, 0, 40)
-        SideButton.Font = Enum.Font.GothamBlack
-        SideButton.Text = "Side"
-        SideButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        SideButton.TextSize = 20.000
+        Sites.Name = "Sites"
+        Sites.Parent = Main
+        Sites.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Sites.BackgroundTransparency = 1.000
+        Sites.Position = UDim2.new(0.107260726, 0, 0, 0)
+        Sites.Size = UDim2.new(0, 541, 0, 338)
 
-        UICorner_5.Parent = SideButton
-
-        SettingsButton.Name = "SettingsButton"
-        SettingsButton.Parent = Sidebar_2
-        SettingsButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        SettingsButton.BorderSizePixel = 0
-        SettingsButton.Size = UDim2.new(0, 75, 0, 40)
-        SettingsButton.Font = Enum.Font.GothamBlack
-        SettingsButton.Text = "Settings"
-        SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        SettingsButton.TextSize = 20.000
-
-        UICorner_6.Parent = SettingsButton
-
-        UICorner_7.Parent = Sidebar
-
-        Pages.Name = "Pages"
-        Pages.Parent = MainFrame
-        Pages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Pages.BackgroundTransparency = 1.000
-        Pages.BorderSizePixel = 0
-        Pages.Position = UDim2.new(0.218045115, 0, 0.0170068033, 0)
-        Pages.Size = UDim2.new(0, 312, 0, 289)
-
-        HomeSection.Name = "HomeSection"
-        HomeSection.Parent = Pages
-        HomeSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        HomeSection.BackgroundTransparency = 1.000
-        HomeSection.BorderSizePixel = 0
-        HomeSection.Position = UDim2.new(0.00641025649, 0, 0.0588235296, 0)
-        HomeSection.Size = UDim2.new(0, 371, 0, 272)
-
-        PlayerViewmodel.Name = "PlayerViewmodel"
-        PlayerViewmodel.Parent = HomeSection
-        PlayerViewmodel.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-        PlayerViewmodel.Position = UDim2.new(0.328320146, 0, -0.0073529412, 0)
-        PlayerViewmodel.Size = UDim2.new(0, 100, 0, 100)
-        PlayerViewmodel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
-        UICorner_8.CornerRadius = UDim.new(100, 100)
-        UICorner_8.Parent = PlayerViewmodel
+        Home_2.Name = "Home"
+        Home_2.Parent = Sites
+        Home_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Home_2.BackgroundTransparency = 1.000
+        Home_2.Size = UDim2.new(0, 541, 0, 338)
 
         Username.Name = "Username"
-        Username.Parent = HomeSection
+        Username.Parent = Home_2
         Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Username.BackgroundTransparency = 1.000
         Username.BorderSizePixel = 0
-        Username.Position = UDim2.new(0.080862537, 0, 0.41911763, 0)
-        Username.Size = UDim2.new(0, 274, 0, 50)
+        Username.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username.Size = UDim2.new(0, 335, 0, 21)
         Username.Font = Enum.Font.GothamBlack
-        Username.Text = "HOLDER"
-        Username.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Username.TextScaled = true
-        Username.TextSize = 14.000
+        Username.Text = "Username: USER_HOLDER"
+        Username.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username.TextSize = 18.000
         Username.TextWrapped = true
+        Username.TextXAlignment = Enum.TextXAlignment.Left
 
-        Credits1.Name = "Credits1"
-        Credits1.Parent = HomeSection
-        Credits1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Credits1.BackgroundTransparency = 1.000
-        Credits1.BorderSizePixel = 0
-        Credits1.Position = UDim2.new(0, 0, 0.75, 0)
-        Credits1.Size = UDim2.new(0, 200, 0, 27)
-        Credits1.Font = Enum.Font.SourceSans
-        Credits1.Text = "- GUI made by:  luki#0069"
-        Credits1.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Credits1.TextSize = 20.000
-        Credits1.TextXAlignment = Enum.TextXAlignment.Left
+        Rank.Name = "Rank"
+        Rank.Parent = Home_2
+        Rank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank.BackgroundTransparency = 1.000
+        Rank.BorderSizePixel = 0
+        Rank.Position = UDim2.new(0.0177452099, 0, 0.214557633, 0)
+        Rank.Size = UDim2.new(0, 335, 0, 21)
+        Rank.Font = Enum.Font.GothamBlack
+        Rank.Text = " "
+        Rank.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank.TextSize = 18.000
+        Rank.TextWrapped = true
+        Rank.TextXAlignment = Enum.TextXAlignment.Left
 
-        Credits2.Name = "Credits2"
-        Credits2.Parent = HomeSection
-        Credits2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Credits2.BackgroundTransparency = 1.000
-        Credits2.BorderSizePixel = 0
-        Credits2.Position = UDim2.new(0, 0, 0.841911793, 0)
-        Credits2.Size = UDim2.new(0, 200, 0, 27)
-        Credits2.Font = Enum.Font.SourceSans
-        Credits2.Text = "- GUI Bought by: [Justin]#0001"
-        Credits2.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Credits2.TextSize = 20.000
-        Credits2.TextXAlignment = Enum.TextXAlignment.Left
+        WhatsNew.Name = "Whats New?"
+        WhatsNew.Parent = Home_2
+        WhatsNew.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        WhatsNew.BackgroundTransparency = 1.000
+        WhatsNew.BorderSizePixel = 0
+        WhatsNew.Position = UDim2.new(0.0177452099, 0, 0.374320924, 0)
+        WhatsNew.Size = UDim2.new(0, 335, 0, 28)
+        WhatsNew.Font = Enum.Font.GothamBlack
+        WhatsNew.Text = "What's new?"
+        WhatsNew.TextColor3 = Color3.fromRGB(220, 220, 220)
+        WhatsNew.TextSize = 26.000
+        WhatsNew.TextWrapped = true
+        WhatsNew.TextXAlignment = Enum.TextXAlignment.Left
 
-        Version.Name = "Version"
-        Version.Parent = HomeSection
-        Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Version.BackgroundTransparency = 1.000
-        Version.BorderSizePixel = 0
-        Version.Position = UDim2.new(0.78644067, 0, 0.841911793, 0)
-        Version.Size = UDim2.new(0, 42, 0, 27)
-        Version.Font = Enum.Font.SourceSans
-        Version.Text = "v0.0.1"
-        Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Version.TextSize = 20.000
-        Version.TextXAlignment = Enum.TextXAlignment.Right
+        watext.Name = "watext"
+        watext.Parent = Home_2
+        watext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        watext.BackgroundTransparency = 1.000
+        watext.BorderSizePixel = 0
+        watext.Position = UDim2.new(0.0177452099, 0, 0.457161278, 0)
+        watext.Size = UDim2.new(0, 515, 0, 169)
+        watext.Font = Enum.Font.GothamBlack
+        watext.Text = "Loading..."
+        watext.TextColor3 = Color3.fromRGB(220, 220, 220)
+        watext.TextSize = 18.000
+        watext.TextWrapped = true
+        watext.TextXAlignment = Enum.TextXAlignment.Left
+        watext.TextYAlignment = Enum.TextYAlignment.Top
 
-        MainSection.Name = "MainSection"
-        MainSection.Parent = Pages
-        MainSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        MainSection.BackgroundTransparency = 1.000
-        MainSection.BorderSizePixel = 0
-        MainSection.Position = UDim2.new(0.00641025649, 0, -0.0138408309, 0)
-        MainSection.Size = UDim2.new(0, 371, 0, 291)
-        MainSection.Visible = false
+        Teleports_2.Name = "Teleports"
+        Teleports_2.Parent = Sites
+        Teleports_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Teleports_2.BackgroundTransparency = 1.000
+        Teleports_2.Size = UDim2.new(0, 541, 0, 338)
+        Teleports_2.Visible = false
 
-        ScrollingFrame.Parent = MainSection
-        ScrollingFrame.Active = true
-        ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        ScrollingFrame.BackgroundTransparency = 1.000
-        ScrollingFrame.Position = UDim2.new(-0.0271091517, 0, 0.0171821304, 0)
-        ScrollingFrame.Size = UDim2.new(0, 381, 0, 285)
+        TextButton.Parent = Teleports_2
+        TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton.Position = UDim2.new(0.0166358575, 0, 0.221893474, 0)
+        TextButton.Size = UDim2.new(0, 132, 0, 45)
+        TextButton.Font = Enum.Font.GothamBlack
+        TextButton.Text = "Bank"
+        TextButton.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton.TextSize = 14.000
 
-        UIGridLayout_2.Parent = ScrollingFrame
-        UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-        UIGridLayout_2.CellSize = UDim2.new(0, 350, 0, 90)
+        UICorner_3.Parent = TextButton
 
-        OrdersTemplate.Name = "OrdersTemplate"
-        OrdersTemplate.Parent = ScrollingFrame
-        OrdersTemplate.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        OrdersTemplate.BorderColor3 = Color3.fromRGB(27, 42, 53)
-        OrdersTemplate.BorderSizePixel = 0
-        OrdersTemplate.Size = UDim2.new(0, 100, 0, 100)
+        TextButton_2.Parent = Teleports_2
+        TextButton_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_2.Position = UDim2.new(0.297597051, 0, 0.221893474, 0)
+        TextButton_2.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_2.Font = Enum.Font.GothamBlack
+        TextButton_2.Text = "Playground"
+        TextButton_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_2.TextSize = 14.000
 
-        UICorner_9.Parent = OrdersTemplate
+        UICorner_4.Parent = TextButton_2
 
-        Viewport.Name = "Viewport"
-        Viewport.Parent = OrdersTemplate
-        Viewport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Viewport.Position = UDim2.new(0.0320000015, 0, 0.100000001, 0)
-        Viewport.Size = UDim2.new(0, 73, 0, 71)
-        Viewport.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+        TextButton_3.Parent = Teleports_2
+        TextButton_3.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_3.Position = UDim2.new(0.584103465, 0, 0.221893474, 0)
+        TextButton_3.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_3.Font = Enum.Font.GothamBlack
+        TextButton_3.Text = "Train"
+        TextButton_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_3.TextSize = 14.000
 
-        UICorner_10.CornerRadius = UDim.new(100, 100)
-        UICorner_10.Parent = Viewport
+        UICorner_5.Parent = TextButton_3
+
+        TextButton_4.Parent = Teleports_2
+        TextButton_4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_4.Position = UDim2.new(0.584103465, 0, 0.396449685, 0)
+        TextButton_4.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_4.Font = Enum.Font.GothamBlack
+        TextButton_4.Text = "Basket"
+        TextButton_4.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_4.TextSize = 14.000
+
+        UICorner_6.Parent = TextButton_4
+
+        TextButton_5.Parent = Teleports_2
+        TextButton_5.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_5.Position = UDim2.new(0.297597051, 0, 0.396449685, 0)
+        TextButton_5.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_5.Font = Enum.Font.GothamBlack
+        TextButton_5.Text = "School"
+        TextButton_5.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_5.TextSize = 14.000
+
+        UICorner_7.Parent = TextButton_5
+
+        TextButton_6.Parent = Teleports_2
+        TextButton_6.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_6.Position = UDim2.new(0.0166358575, 0, 0.396449685, 0)
+        TextButton_6.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_6.Font = Enum.Font.GothamBlack
+        TextButton_6.Text = "Club"
+        TextButton_6.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_6.TextSize = 14.000
+
+        UICorner_8.Parent = TextButton_6
+
+        TextButton_7.Parent = Teleports_2
+        TextButton_7.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_7.Position = UDim2.new(0.584103465, 0, 0.573964477, 0)
+        TextButton_7.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_7.Font = Enum.Font.GothamBlack
+        TextButton_7.Text = "Safezone"
+        TextButton_7.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_7.TextSize = 14.000
+
+        UICorner_9.Parent = TextButton_7
+
+        TextButton_8.Parent = Teleports_2
+        TextButton_8.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_8.Position = UDim2.new(0.297597051, 0, 0.573964477, 0)
+        TextButton_8.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_8.Font = Enum.Font.GothamBlack
+        TextButton_8.Text = "Ufo"
+        TextButton_8.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_8.TextSize = 14.000
+
+        UICorner_10.Parent = TextButton_8
+
+        TextButton_9.Parent = Teleports_2
+        TextButton_9.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_9.Position = UDim2.new(0.0166358575, 0, 0.573964477, 0)
+        TextButton_9.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_9.Font = Enum.Font.GothamBlack
+        TextButton_9.Text = "Police"
+        TextButton_9.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_9.TextSize = 14.000
+
+        UICorner_11.Parent = TextButton_9
+
+        TextButton_10.Parent = Teleports_2
+        TextButton_10.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_10.Position = UDim2.new(0.584103465, 0, 0.751479208, 0)
+        TextButton_10.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_10.Font = Enum.Font.GothamBlack
+        TextButton_10.Text = "Shop2"
+        TextButton_10.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_10.TextSize = 14.000
+
+        UICorner_12.Parent = TextButton_10
+
+        TextButton_11.Parent = Teleports_2
+        TextButton_11.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_11.Position = UDim2.new(0.297597051, 0, 0.751479208, 0)
+        TextButton_11.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_11.Font = Enum.Font.GothamBlack
+        TextButton_11.Text = "Shop1"
+        TextButton_11.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_11.TextSize = 14.000
+
+        UICorner_13.Parent = TextButton_11
+
+        TextButton_12.Parent = Teleports_2
+        TextButton_12.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_12.Position = UDim2.new(0.0166358575, 0, 0.751479208, 0)
+        TextButton_12.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_12.Font = Enum.Font.GothamBlack
+        TextButton_12.Text = "Admin"
+        TextButton_12.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_12.TextSize = 14.000
+
+        UICorner_14.Parent = TextButton_12
+
+        Title.Name = "Title"
+        Title.Parent = Teleports_2
+        Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Title.BackgroundTransparency = 1.000
+        Title.BorderSizePixel = 0
+        Title.Position = UDim2.new(0.0183918625, 0, 0.109467454, 0)
+        Title.Size = UDim2.new(0, 153, 0, 21)
+        Title.Font = Enum.Font.GothamBlack
+        Title.Text = "Teleports"
+        Title.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Title.TextSize = 20.000
+        Title.TextWrapped = true
+        Title.TextXAlignment = Enum.TextXAlignment.Left
+
+        Cmds_2.Name = "Cmds"
+        Cmds_2.Parent = Sites
+        Cmds_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Cmds_2.BackgroundTransparency = 1.000
+        Cmds_2.Size = UDim2.new(0, 541, 0, 338)
+        Cmds_2.Visible = false
+
+        Username_2.Name = "Username"
+        Username_2.Parent = Cmds_2
+        Username_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username_2.BackgroundTransparency = 1.000
+        Username_2.BorderSizePixel = 0
+        Username_2.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username_2.Size = UDim2.new(0, 335, 0, 21)
+        Username_2.Font = Enum.Font.GothamBlack
+        Username_2.Text = "Commands"
+        Username_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username_2.TextSize = 18.000
+        Username_2.TextWrapped = true
+        Username_2.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_2.Name = "Rank"
+        Rank_2.Parent = Cmds_2
+        Rank_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_2.BackgroundTransparency = 1.000
+        Rank_2.BorderSizePixel = 0
+        Rank_2.Position = UDim2.new(0.0177452099, 0, 0.241184741, 0)
+        Rank_2.Size = UDim2.new(0, 390, 0, 21)
+        Rank_2.Font = Enum.Font.GothamBlack
+        Rank_2.Text = "setup {bank, admin}"
+        Rank_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_2.TextSize = 18.000
+        Rank_2.TextWrapped = true
+        Rank_2.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_3.Name = "Rank"
+        Rank_3.Parent = Cmds_2
+        Rank_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_3.BackgroundTransparency = 1.000
+        Rank_3.BorderSizePixel = 0
+        Rank_3.Position = UDim2.new(0.0177452099, 0, 0.303314924, 0)
+        Rank_3.Size = UDim2.new(0, 390, 0, 21)
+        Rank_3.Font = Enum.Font.GothamBlack
+        Rank_3.Text = "airlock {alt name, none=all}"
+        Rank_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_3.TextSize = 18.000
+        Rank_3.TextWrapped = true
+        Rank_3.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_4.Name = "Rank"
+        Rank_4.Parent = Cmds_2
+        Rank_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_4.BackgroundTransparency = 1.000
+        Rank_4.BorderSizePixel = 0
+        Rank_4.Position = UDim2.new(0.0177452099, 0, 0.365445107, 0)
+        Rank_4.Size = UDim2.new(0, 390, 0, 21)
+        Rank_4.Font = Enum.Font.GothamBlack
+        Rank_4.Text = "wallet {alt name, none=all}"
+        Rank_4.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_4.TextSize = 18.000
+        Rank_4.TextWrapped = true
+        Rank_4.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_5.Name = "Rank"
+        Rank_5.Parent = Cmds_2
+        Rank_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_5.BackgroundTransparency = 1.000
+        Rank_5.BorderSizePixel = 0
+        Rank_5.Position = UDim2.new(0.0177452099, 0, 0.42757529, 0)
+        Rank_5.Size = UDim2.new(0, 390, 0, 21)
+        Rank_5.Font = Enum.Font.GothamBlack
+        Rank_5.Text = "drop {alt name, none=all}"
+        Rank_5.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_5.TextSize = 18.000
+        Rank_5.TextWrapped = true
+        Rank_5.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_6.Name = "Rank"
+        Rank_6.Parent = Cmds_2
+        Rank_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_6.BackgroundTransparency = 1.000
+        Rank_6.BorderSizePixel = 0
+        Rank_6.Position = UDim2.new(0.0177452099, 0, 0.489705473, 0)
+        Rank_6.Size = UDim2.new(0, 390, 0, 21)
+        Rank_6.Font = Enum.Font.GothamBlack
+        Rank_6.Text = "setspot {alt name, none=all}"
+        Rank_6.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_6.TextSize = 18.000
+        Rank_6.TextWrapped = true
+        Rank_6.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_7.Name = "Rank"
+        Rank_7.Parent = Cmds_2
+        Rank_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_7.BackgroundTransparency = 1.000
+        Rank_7.BorderSizePixel = 0
+        Rank_7.Position = UDim2.new(0.0177452099, 0, 0.551835656, 0)
+        Rank_7.Size = UDim2.new(0, 390, 0, 21)
+        Rank_7.Font = Enum.Font.GothamBlack
+        Rank_7.Text = "tospot {alt name, none=all}"
+        Rank_7.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_7.TextSize = 18.000
+        Rank_7.TextWrapped = true
+        Rank_7.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_8.Name = "Rank"
+        Rank_8.Parent = Cmds_2
+        Rank_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_8.BackgroundTransparency = 1.000
+        Rank_8.BorderSizePixel = 0
+        Rank_8.Position = UDim2.new(0.0177452099, 0, 0.613965809, 0)
+        Rank_8.Size = UDim2.new(0, 390, 0, 21)
+        Rank_8.Font = Enum.Font.GothamBlack
+        Rank_8.Text = "bringalts"
+        Rank_8.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_8.TextSize = 18.000
+        Rank_8.TextWrapped = true
+        Rank_8.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_9.Name = "Rank"
+        Rank_9.Parent = Cmds_2
+        Rank_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_9.BackgroundTransparency = 1.000
+        Rank_9.BorderSizePixel = 0
+        Rank_9.Position = UDim2.new(0.0177452099, 0, 0.738226175, 0)
+        Rank_9.Size = UDim2.new(0, 390, 0, 21)
+        Rank_9.Font = Enum.Font.GothamBlack
+        Rank_9.Text = "kill {alt name, none=all}"
+        Rank_9.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_9.TextSize = 18.000
+        Rank_9.TextWrapped = true
+        Rank_9.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_10.Name = "Rank"
+        Rank_10.Parent = Cmds_2
+        Rank_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_10.BackgroundTransparency = 1.000
+        Rank_10.BorderSizePixel = 0
+        Rank_10.Position = UDim2.new(0.0177452099, 0, 0.676096022, 0)
+        Rank_10.Size = UDim2.new(0, 390, 0, 21)
+        Rank_10.Font = Enum.Font.GothamBlack
+        Rank_10.Text = "bring {alt name}"
+        Rank_10.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_10.TextSize = 18.000
+        Rank_10.TextWrapped = true
+        Rank_10.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_11.Name = "Rank"
+        Rank_11.Parent = Cmds_2
+        Rank_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_11.BackgroundTransparency = 1.000
+        Rank_11.BorderSizePixel = 0
+        Rank_11.Position = UDim2.new(0.0177452099, 0, 0.800356328, 0)
+        Rank_11.Size = UDim2.new(0, 390, 0, 21)
+        Rank_11.Font = Enum.Font.GothamBlack
+        Rank_11.Text = "kick {alt name, none=all}"
+        Rank_11.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_11.TextSize = 18.000
+        Rank_11.TextWrapped = true
+        Rank_11.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_12.Name = "Rank"
+        Rank_12.Parent = Cmds_2
+        Rank_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_12.BackgroundTransparency = 1.000
+        Rank_12.BorderSizePixel = 0
+        Rank_12.Position = UDim2.new(0.0177452099, 0, 0.859527946, 0)
+        Rank_12.Size = UDim2.new(0, 390, 0, 21)
+        Rank_12.Font = Enum.Font.GothamBlack
+        Rank_12.Text = "freeze {alt name, none=all}"
+        Rank_12.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_12.TextSize = 18.000
+        Rank_12.TextWrapped = true
+        Rank_12.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_13.Name = "Rank"
+        Rank_13.Parent = Cmds_2
+        Rank_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_13.BackgroundTransparency = 1.000
+        Rank_13.BorderSizePixel = 0
+        Rank_13.Position = UDim2.new(0.0177452099, 0, 0.918699563, 0)
+        Rank_13.Size = UDim2.new(0, 390, 0, 21)
+        Rank_13.Font = Enum.Font.GothamBlack
+        Rank_13.Text = "unfreeze {alt name, none=all}"
+        Rank_13.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_13.TextSize = 18.000
+        Rank_13.TextWrapped = true
+        Rank_13.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_14.Name = "Rank"
+        Rank_14.Parent = Cmds_2
+        Rank_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_14.BackgroundTransparency = 1.000
+        Rank_14.BorderSizePixel = 0
+        Rank_14.Position = UDim2.new(0.511275709, 0, 0.241184801, 0)
+        Rank_14.Size = UDim2.new(0, 390, 0, 21)
+        Rank_14.Font = Enum.Font.GothamBlack
+        Rank_14.Text = "vibe {alt name, none=all}"
+        Rank_14.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_14.TextSize = 18.000
+        Rank_14.TextWrapped = true
+        Rank_14.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_15.Name = "Rank"
+        Rank_15.Parent = Cmds_2
+        Rank_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_15.BackgroundTransparency = 1.000
+        Rank_15.BorderSizePixel = 0
+        Rank_15.Position = UDim2.new(0.511275709, 0, 0.303314984, 0)
+        Rank_15.Size = UDim2.new(0, 390, 0, 21)
+        Rank_15.Font = Enum.Font.GothamBlack
+        Rank_15.Text = "advert {alt name, none=all}"
+        Rank_15.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_15.TextSize = 18.000
+        Rank_15.TextWrapped = true
+        Rank_15.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_16.Name = "Rank"
+        Rank_16.Parent = Cmds_2
+        Rank_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_16.BackgroundTransparency = 1.000
+        Rank_16.BorderSizePixel = 0
+        Rank_16.Position = UDim2.new(0.511275709, 0, 0.365445167, 0)
+        Rank_16.Size = UDim2.new(0, 390, 0, 21)
+        Rank_16.Font = Enum.Font.GothamBlack
+        Rank_16.Text = "crash"
+        Rank_16.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_16.TextSize = 18.000
+        Rank_16.TextWrapped = true
+        Rank_16.TextXAlignment = Enum.TextXAlignment.Left
+
+        Info_2.Name = "Info"
+        Info_2.Parent = Sites
+        Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Info_2.BackgroundTransparency = 1.000
+        Info_2.Size = UDim2.new(0, 541, 0, 338)
+        Info_2.Visible = false
+
+        Username_3.Name = "Username"
+        Username_3.Parent = Info_2
+        Username_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username_3.BackgroundTransparency = 1.000
+        Username_3.BorderSizePixel = 0
+        Username_3.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username_3.Size = UDim2.new(0, 335, 0, 21)
+        Username_3.Font = Enum.Font.GothamBlack
+        Username_3.Text = "Info"
+        Username_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username_3.TextSize = 18.000
+        Username_3.TextWrapped = true
+        Username_3.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_17.Name = "Rank"
+        Rank_17.Parent = Info_2
+        Rank_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_17.BackgroundTransparency = 1.000
+        Rank_17.BorderSizePixel = 0
+        Rank_17.Position = UDim2.new(0.0177452099, 0, 0.288522124, 0)
+        Rank_17.Size = UDim2.new(0, 513, 0, 226)
+        Rank_17.Font = Enum.Font.GothamBlack
+        Rank_17.Text =
+            "This script has been made by luki#0069"
+        Rank_17.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_17.TextSize = 18.000
+        Rank_17.TextWrapped = true
+        Rank_17.TextXAlignment = Enum.TextXAlignment.Left
+        Rank_17.TextYAlignment = Enum.TextYAlignment.Top
+
+        Settings_2.Name = "Settings"
+        Settings_2.Parent = Sites
+        Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Settings_2.BackgroundTransparency = 1.000
+        Settings_2.Size = UDim2.new(0, 541, 0, 338)
+        Settings_2.Visible = false
+
+        Username_4.Name = "Username"
+        Username_4.Parent = Settings_2
+        Username_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username_4.BackgroundTransparency = 1.000
+        Username_4.BorderSizePixel = 0
+        Username_4.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username_4.Size = UDim2.new(0, 335, 0, 21)
+        Username_4.Font = Enum.Font.GothamBlack
+        Username_4.Text = "Settings"
+        Username_4.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username_4.TextSize = 18.000
+        Username_4.TextWrapped = true
+        Username_4.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_18.Name = "Rank"
+        Rank_18.Parent = Settings_2
+        Rank_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_18.BackgroundTransparency = 1.000
+        Rank_18.BorderSizePixel = 0
+        Rank_18.Position = UDim2.new(0.133086875, 0, 0.362486631, 0)
+        Rank_18.Size = UDim2.new(0, 391, 0, 92)
+        Rank_18.Font = Enum.Font.GothamBlack
+        Rank_18.Text = "SETTINGS COMING SOON!"
+        Rank_18.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_18.TextSize = 18.000
+        Rank_18.TextWrapped = true
+
+        Search_2.Name = "Search"
+        Search_2.Parent = Sites
+        Search_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Search_2.BackgroundTransparency = 1.000
+        Search_2.Size = UDim2.new(0, 541, 0, 338)
+        Search_2.Visible = false
+
+        Title_2.Name = "Title"
+        Title_2.Parent = Search_2
+        Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Title_2.BackgroundTransparency = 1.000
+        Title_2.BorderSizePixel = 0
+        Title_2.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Title_2.Size = UDim2.new(0, 335, 0, 21)
+        Title_2.Font = Enum.Font.GothamBlack
+        Title_2.Text = "Search accounts"
+        Title_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Title_2.TextSize = 18.000
+        Title_2.TextWrapped = true
+        Title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+        TextBox.Parent = Search_2
+        TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+        TextBox.Position = UDim2.new(0.0166358594, 0, 0.724852026, 0)
+        TextBox.Size = UDim2.new(0, 268, 0, 37)
+        TextBox.ZIndex = 5
+        TextBox.Font = Enum.Font.GothamBlack
+        TextBox.LineHeight = 1.100
+        TextBox.PlaceholderText = "Input Username (cAsE sEnsItive)"
+        TextBox.Text = ""
+        TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+        TextBox.TextSize = 14.000
+
+        UICorner_15.Parent = TextBox
+
+        searchBTN.Name = "searchBTN"
+        searchBTN.Parent = Search_2
+        searchBTN.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        searchBTN.Position = UDim2.new(0.0166358594, 0, 0.855029583, 0)
+        searchBTN.Size = UDim2.new(0, 106, 0, 36)
+        searchBTN.Font = Enum.Font.GothamBlack
+        searchBTN.Text = "Search"
+        searchBTN.TextColor3 = Color3.fromRGB(230, 230, 230)
+        searchBTN.TextSize = 14.000
+
+        UICorner_16.Parent = searchBTN
 
         username.Name = "username"
-        username.Parent = OrdersTemplate
+        username.Parent = Search_2
         username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         username.BackgroundTransparency = 1.000
         username.BorderSizePixel = 0
-        username.Position = UDim2.new(0.263428599, 0, 0.100000001, 0)
-        username.Size = UDim2.new(0, 176, 0, 42)
-        username.Font = Enum.Font.GothamBold
-        username.Text = "USERNAME"
-        username.TextColor3 = Color3.fromRGB(255, 255, 255)
-        username.TextScaled = true
-        username.TextSize = 14.000
+        username.Position = UDim2.new(0.0177452099, 0, 0.264853477, 0)
+        username.Size = UDim2.new(0, 335, 0, 21)
+        username.Font = Enum.Font.GothamBlack
+        username.Text = "Username: HOLDER"
+        username.TextColor3 = Color3.fromRGB(220, 220, 220)
+        username.TextSize = 18.000
         username.TextWrapped = true
         username.TextXAlignment = Enum.TextXAlignment.Left
 
-        PlayersCash.Name = "PlayersCash"
-        PlayersCash.Parent = OrdersTemplate
-        PlayersCash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        PlayersCash.BackgroundTransparency = 1.000
-        PlayersCash.BorderSizePixel = 0
-        PlayersCash.Position = UDim2.new(0.274857134, 0, 0.644444466, 0)
-        PlayersCash.Size = UDim2.new(0, 145, 0, 22)
-        PlayersCash.Font = Enum.Font.GothamBold
-        PlayersCash.Text = "Cash: "
-        PlayersCash.TextColor3 = Color3.fromRGB(255, 255, 255)
-        PlayersCash.TextScaled = true
-        PlayersCash.TextSize = 14.000
-        PlayersCash.TextWrapped = true
-        PlayersCash.TextXAlignment = Enum.TextXAlignment.Left
+        cash.Name = "cash"
+        cash.Parent = Search_2
+        cash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        cash.BackgroundTransparency = 1.000
+        cash.BorderSizePixel = 0
+        cash.Position = UDim2.new(0.0177452099, 0, 0.338817954, 0)
+        cash.Size = UDim2.new(0, 335, 0, 21)
+        cash.Font = Enum.Font.GothamBlack
+        cash.Text = "Money: HOLDER"
+        cash.TextColor3 = Color3.fromRGB(220, 220, 220)
+        cash.TextSize = 18.000
+        cash.TextWrapped = true
+        cash.TextXAlignment = Enum.TextXAlignment.Left
 
-        TpButton.Name = "TpButton"
-        TpButton.Parent = OrdersTemplate
-        TpButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-        TpButton.BorderSizePixel = 0
-        TpButton.Position = UDim2.new(0.765714288, 0, 0.100000001, 0)
-        TpButton.Size = UDim2.new(0, 74, 0, 22)
-        TpButton.Font = Enum.Font.GothamBlack
-        TpButton.Text = "Go to"
-        TpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        TpButton.TextSize = 14.000
+        UserIMG.Name = "UserIMG"
+        UserIMG.Parent = Search_2
+        UserIMG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        UserIMG.BackgroundTransparency = 1.000
+        UserIMG.Position = UDim2.new(0.780036926, 0, 0.177514777, 0)
+        UserIMG.Size = UDim2.new(0, 100, 0, 100)
+        UserIMG.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-        UICorner_11.Parent = TpButton
+        UICorner_17.CornerRadius = UDim.new(1, 10)
+        UICorner_17.Parent = UserIMG
 
-        TeleportsSection.Name = "TeleportsSection"
-        TeleportsSection.Parent = Pages
-        TeleportsSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        TeleportsSection.BackgroundTransparency = 1.000
-        TeleportsSection.BorderSizePixel = 0
-        TeleportsSection.Position = UDim2.new(0.00641025649, 0, 0.0588235296, 0)
-        TeleportsSection.Size = UDim2.new(0, 371, 0, 272)
-        TeleportsSection.Visible = false
-
-        Title.Name = "Title"
-        Title.Parent = TeleportsSection
-        Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Title.BackgroundTransparency = 1.000
-        Title.Position = UDim2.new(0.178637683, 0, -0.0614082776, 0)
-        Title.Size = UDim2.new(0, 200, 0, 50)
-        Title.Font = Enum.Font.GothamBlack
-        Title.Text = "Teleports"
-        Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Title.TextSize = 30.000
-
-        Places.Name = "Places"
-        Places.Parent = TeleportsSection
-        Places.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Places.BackgroundTransparency = 1.000
-        Places.BorderSizePixel = 0
-        Places.Position = UDim2.new(-0.00921005663, 0, 0.158088237, 0)
-        Places.Size = UDim2.new(0, 345, 0, 217)
-
-        UIGridLayout_3.Parent = Places
-        UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-        UIGridLayout_3.CellSize = UDim2.new(0, 110, 0, 50)
-
-        Bank.Name = "Bank"
-        Bank.Parent = Places
-        Bank.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Bank.Size = UDim2.new(0, 200, 0, 50)
-        Bank.Font = Enum.Font.GothamBold
-        Bank.Text = "Bank"
-        Bank.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Bank.TextSize = 20.000
-
-        UICorner_12.Parent = Bank
-
-        BankTop.Name = "BankTop"
-        BankTop.Parent = Places
-        BankTop.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        BankTop.Size = UDim2.new(0, 200, 0, 50)
-        BankTop.Font = Enum.Font.GothamBold
-        BankTop.Text = "Bank Top"
-        BankTop.TextColor3 = Color3.fromRGB(255, 255, 255)
-        BankTop.TextSize = 20.000
-
-        UICorner_13.Parent = BankTop
-
-        Vault.Name = "Vault"
-        Vault.Parent = Places
-        Vault.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Vault.Size = UDim2.new(0, 200, 0, 50)
-        Vault.Font = Enum.Font.GothamBold
-        Vault.Text = "Vault"
-        Vault.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Vault.TextSize = 20.000
-
-        UICorner_14.Parent = Vault
-
-        Admin.Name = "Admin"
-        Admin.Parent = Places
-        Admin.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Admin.Size = UDim2.new(0, 200, 0, 50)
-        Admin.Font = Enum.Font.GothamBold
-        Admin.Text = "Admin"
-        Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Admin.TextSize = 20.000
-
-        UICorner_15.Parent = Admin
-
-        AdminCell.Name = "AdminCell"
-        AdminCell.Parent = Places
-        AdminCell.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        AdminCell.Size = UDim2.new(0, 200, 0, 50)
-        AdminCell.Font = Enum.Font.GothamBold
-        AdminCell.Text = "Admin Cell"
-        AdminCell.TextColor3 = Color3.fromRGB(255, 255, 255)
-        AdminCell.TextSize = 20.000
-
-        UICorner_16.Parent = AdminCell
-
-        Basketball.Name = "Basketball"
-        Basketball.Parent = Places
-        Basketball.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Basketball.Size = UDim2.new(0, 200, 0, 50)
-        Basketball.Font = Enum.Font.GothamBold
-        Basketball.Text = "Basketball"
-        Basketball.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Basketball.TextSize = 20.000
-
-        UICorner_17.Parent = Basketball
-
-        Jail.Name = "Jail"
-        Jail.Parent = Places
-        Jail.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Jail.Size = UDim2.new(0, 200, 0, 50)
-        Jail.Font = Enum.Font.GothamBold
-        Jail.Text = "Jail"
-        Jail.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Jail.TextSize = 20.000
-
-        UICorner_18.Parent = Jail
-
-        Grave.Name = "Grave"
-        Grave.Parent = Places
-        Grave.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Grave.Size = UDim2.new(0, 200, 0, 50)
-        Grave.Font = Enum.Font.GothamBold
-        Grave.Text = "Grave"
-        Grave.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Grave.TextSize = 20.000
-
-        UICorner_19.Parent = Grave
-
-        Club.Name = "Club"
-        Club.Parent = Places
-        Club.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Club.Size = UDim2.new(0, 200, 0, 50)
-        Club.Font = Enum.Font.GothamBold
-        Club.Text = "Club"
-        Club.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Club.TextSize = 20.000
-
-        UICorner_20.Parent = Club
-
-        safezone1.Name = "safezone1"
-        safezone1.Parent = Places
-        safezone1.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        safezone1.Size = UDim2.new(0, 200, 0, 50)
-        safezone1.Font = Enum.Font.GothamBold
-        safezone1.Text = "Safezone 1"
-        safezone1.TextColor3 = Color3.fromRGB(255, 255, 255)
-        safezone1.TextSize = 20.000
-
-        UICorner_21.Parent = safezone1
-
-        safezone2.Name = "safezone2"
-        safezone2.Parent = Places
-        safezone2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        safezone2.Size = UDim2.new(0, 200, 0, 50)
-        safezone2.Font = Enum.Font.GothamBold
-        safezone2.Text = "Safezone 2"
-        safezone2.TextColor3 = Color3.fromRGB(255, 255, 255)
-        safezone2.TextSize = 20.000
-
-        UICorner_22.Parent = safezone2
-
-        safezone3.Name = "safezone3"
-        safezone3.Parent = Places
-        safezone3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        safezone3.Size = UDim2.new(0, 200, 0, 50)
-        safezone3.Font = Enum.Font.GothamBold
-        safezone3.Text = "Safezone 3"
-        safezone3.TextColor3 = Color3.fromRGB(255, 255, 255)
-        safezone3.TextSize = 20.000
-
-        UICorner_23.Parent = safezone3
-
-        SideSection.Name = "SideSection"
-        SideSection.Parent = Pages
-        SideSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        SideSection.BackgroundTransparency = 1.000
-        SideSection.BorderSizePixel = 0
-        SideSection.Position = UDim2.new(0.00641025649, 0, 0.0588235296, 0)
-        SideSection.Size = UDim2.new(0, 371, 0, 272)
-        SideSection.Visible = false
-
-        Title_2.Name = "Title"
-        Title_2.Parent = SideSection
-        Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Title_2.BackgroundTransparency = 1.000
-        Title_2.Position = UDim2.new(0.200895429, 0, -0.0797906369, 0)
-        Title_2.Size = UDim2.new(0, 200, 0, 50)
-        Title_2.Font = Enum.Font.GothamBlack
-        Title_2.Text = "Side Scripts"
-        Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Title_2.TextSize = 30.000
-
-        Fly.Name = "Fly"
-        Fly.Parent = SideSection
-        Fly.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Fly.Position = UDim2.new(-0.00921005011, 0, 0.143382341, 0)
-        Fly.Size = UDim2.new(0, 159, 0, 50)
-        Fly.Font = Enum.Font.GothamBlack
-        Fly.Text = "Fly"
-        Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Fly.TextSize = 20.000
-
-        UICorner_24.Parent = Fly
-
-        Cashaura.Name = "Cashaura"
-        Cashaura.Parent = SideSection
-        Cashaura.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Cashaura.Position = UDim2.new(-0.00921005011, 0, 0.400735289, 0)
-        Cashaura.Size = UDim2.new(0, 159, 0, 50)
-        Cashaura.Font = Enum.Font.GothamBlack
-        Cashaura.Text = "CashAura"
-        Cashaura.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Cashaura.TextSize = 20.000
-
-        UICorner_25.Parent = Cashaura
-
-        manualtp.Name = "manualtp"
-        manualtp.Parent = SideSection
-        manualtp.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        manualtp.Position = UDim2.new(-0.00921005011, 0, 0.665441155, 0)
-        manualtp.Size = UDim2.new(0, 159, 0, 50)
-        manualtp.Font = Enum.Font.GothamBlack
-        manualtp.Text = "Q to TP"
-        manualtp.TextColor3 = Color3.fromRGB(255, 255, 255)
-        manualtp.TextSize = 20.000
-
-        UICorner_26.Parent = manualtp
-
-        ForceReset.Name = "ForceReset"
-        ForceReset.Parent = SideSection
-        ForceReset.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        ForceReset.Position = UDim2.new(0.508310139, 0, 0.143382341, 0)
-        ForceReset.Size = UDim2.new(0, 159, 0, 50)
-        ForceReset.Font = Enum.Font.GothamBlack
-        ForceReset.Text = "Force Reset"
-        ForceReset.TextColor3 = Color3.fromRGB(255, 255, 255)
-        ForceReset.TextSize = 20.000
-
-        UICorner_27.Parent = ForceReset
-
-        Noclip.Name = "Noclip"
-        Noclip.Parent = SideSection
-        Noclip.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Noclip.Position = UDim2.new(0.508310139, 0, 0.400735289, 0)
-        Noclip.Size = UDim2.new(0, 159, 0, 50)
-        Noclip.Font = Enum.Font.GothamBlack
-        Noclip.Text = "Noclip"
-        Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Noclip.TextSize = 20.000
-
-        UICorner_28.Parent = Noclip
-
-        Fakemacro.Name = "Fakemacro"
-        Fakemacro.Parent = SideSection
-        Fakemacro.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Fakemacro.Position = UDim2.new(0.508310139, 0, 0.665441155, 0)
-        Fakemacro.Size = UDim2.new(0, 159, 0, 50)
-        Fakemacro.Font = Enum.Font.GothamBlack
-        Fakemacro.Text = "Fake Macro"
-        Fakemacro.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Fakemacro.TextSize = 20.000
-
-        UICorner_29.Parent = Fakemacro
-
-        SettingsSection.Name = "SettingsSection"
-        SettingsSection.Parent = Pages
-        SettingsSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        SettingsSection.BackgroundTransparency = 1.000
-        SettingsSection.BorderSizePixel = 0
-        SettingsSection.Position = UDim2.new(-0.0552102104, 0, -0.0173010379, 0)
-        SettingsSection.Size = UDim2.new(0, 390, 0, 294)
-        SettingsSection.Visible = false
+        wanted.Name = "wanted"
+        wanted.Parent = Search_2
+        wanted.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        wanted.BackgroundTransparency = 1.000
+        wanted.BorderSizePixel = 0
+        wanted.Position = UDim2.new(0.0177452099, 0, 0.41278249, 0)
+        wanted.Size = UDim2.new(0, 335, 0, 21)
+        wanted.Font = Enum.Font.GothamBlack
+        wanted.Text = "Wanted: HOLDER"
+        wanted.TextColor3 = Color3.fromRGB(220, 220, 220)
+        wanted.TextSize = 18.000
+        wanted.TextWrapped = true
+        wanted.TextXAlignment = Enum.TextXAlignment.Left
 
         Title_3.Name = "Title"
-        Title_3.Parent = SettingsSection
+        Title_3.Parent = Main
         Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Title_3.BackgroundTransparency = 1.000
-        Title_3.Position = UDim2.new(0.243828595, 0, 0.0015669018, 0)
-        Title_3.Size = UDim2.new(0, 200, 0, 50)
+        Title_3.BorderSizePixel = 0
+        Title_3.Position = UDim2.new(0.123752303, 0, 0.0177514795, 0)
+        Title_3.Size = UDim2.new(0, 153, 0, 21)
         Title_3.Font = Enum.Font.GothamBlack
-        Title_3.Text = "Settings"
-        Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Title_3.TextSize = 30.000
-
-        Text1.Name = "Text1"
-        Text1.Parent = SettingsSection
-        Text1.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Text1.Position = UDim2.new(0.0461538471, 0, 0.214285716, 0)
-        Text1.Size = UDim2.new(0, 183, 0, 28)
-        Text1.Font = Enum.Font.GothamBold
-        Text1.Text = "Toggle GUI: (Right Shift)"
-        Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Text1.TextSize = 15.000
-
-        UICorner_30.Parent = Text1
-
-        ChangeKeybind.Name = "ChangeKeybind"
-        ChangeKeybind.Parent = SettingsSection
-        ChangeKeybind.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        ChangeKeybind.Position = UDim2.new(0.546153843, 0, 0.197278902, 0)
-        ChangeKeybind.Size = UDim2.new(0, 158, 0, 33)
-        ChangeKeybind.Font = Enum.Font.GothamBold
-        ChangeKeybind.Text = "Enter your new Keybind..."
-        ChangeKeybind.TextColor3 = Color3.fromRGB(0, 0, 0)
-        ChangeKeybind.TextScaled = true
-        ChangeKeybind.TextSize = 14.000
-        ChangeKeybind.TextWrapped = true
-
-        UICorner_31.Parent = ChangeKeybind
-
-        Text1_2.Name = "Text1"
-        Text1_2.Parent = SettingsSection
-        Text1_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        Text1_2.Position = UDim2.new(0.0461538471, 0, 0.367346972, 0)
-        Text1_2.Size = UDim2.new(0, 183, 0, 28)
-        Text1_2.Font = Enum.Font.GothamBold
-        Text1_2.Text = "Fly speed (15)"
-        Text1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Text1_2.TextSize = 15.000
-
-        UICorner_32.Parent = Text1_2
-
-        ChangeFlySpeed.Name = "ChangeFlySpeed"
-        ChangeFlySpeed.Parent = SettingsSection
-        ChangeFlySpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        ChangeFlySpeed.Position = UDim2.new(0.546153843, 0, 0.350340158, 0)
-        ChangeFlySpeed.Size = UDim2.new(0, 158, 0, 33)
-        ChangeFlySpeed.Font = Enum.Font.GothamBold
-        ChangeFlySpeed.Text = "Enter your new speed..."
-        ChangeFlySpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
-        ChangeFlySpeed.TextScaled = true
-        ChangeFlySpeed.TextSize = 14.000
-        ChangeFlySpeed.TextWrapped = true
-
-        UICorner_33.Parent = ChangeFlySpeed
-
-        CopyDiscord.Name = "CopyDiscord"
-        CopyDiscord.Parent = SettingsSection
-        CopyDiscord.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        CopyDiscord.Position = UDim2.new(0.243589744, 0, 0.547619045, 0)
-        CopyDiscord.Size = UDim2.new(0, 183, 0, 36)
-        CopyDiscord.Font = Enum.Font.GothamBlack
-        CopyDiscord.Text = "Copy Discord"
-        CopyDiscord.TextColor3 = Color3.fromRGB(255, 255, 255)
-        CopyDiscord.TextSize = 20.000
-
-        UICorner_34.Parent = CopyDiscord
-
-        CopyGroup.Name = "CopyGroup"
-        CopyGroup.Parent = SettingsSection
-        CopyGroup.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-        CopyGroup.Position = UDim2.new(0.243589744, 0, 0.731292546, 0)
-        CopyGroup.Size = UDim2.new(0, 183, 0, 36)
-        CopyGroup.Font = Enum.Font.GothamBlack
-        CopyGroup.Text = "Copy Group"
-        CopyGroup.TextColor3 = Color3.fromRGB(255, 255, 255)
-        CopyGroup.TextSize = 20.000
-
-        UICorner_35.Parent = CopyGroup
+        Title_3.Text = "Luki's Alt Control"
+        Title_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Title_3.TextSize = 14.000
+        Title_3.TextWrapped = true
+        Title_3.TextXAlignment = Enum.TextXAlignment.Left
 
         -- Scripts:
 
-        local function OTUXJC_fake_script() -- PlayerViewmodel.LocalScript 
-            local script = Instance.new('LocalScript', PlayerViewmodel)
+        local function GRQO_fake_script() -- Home.LocalScript 
+            local script = Instance.new('LocalScript', Home)
 
-            local player = game.Players.LocalPlayer
-            local image = script.Parent
-            
-            while wait(1) do
-                image.Image = game.Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size352x352)
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = true
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = false
             end
+
+            button.MouseButton1Click:Connect(leftClick)
         end
-        coroutine.wrap(OTUXJC_fake_script)()
-        local function HHSMWM_fake_script() -- Username.changer 
+        coroutine.wrap(GRQO_fake_script)()
+        local function TNFK_fake_script() -- Settings.LocalScript 
+            local script = Instance.new('LocalScript', Settings)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = true
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(TNFK_fake_script)()
+        local function YXXMEU_fake_script() -- Info.LocalScript 
+            local script = Instance.new('LocalScript', Info)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = true
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(YXXMEU_fake_script)()
+        local function DGHUM_fake_script() -- Teleports.LocalScript 
+            local script = Instance.new('LocalScript', Teleports)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = true
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(DGHUM_fake_script)()
+        local function MFTM_fake_script() -- Cmds.LocalScript 
+            local script = Instance.new('LocalScript', Cmds)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = true
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(MFTM_fake_script)()
+        local function HJGQ_fake_script() -- Search.LocalScript 
+            local script = Instance.new('LocalScript', Search)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = true
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(HJGQ_fake_script)()
+        local function SURQ_fake_script() -- Username.LocalScript 
             local script = Instance.new('LocalScript', Username)
 
-            local player = game.Players.LocalPlayer
-            local text = script.Parent
-            
-            while wait(1) do
-                text.Text = "Welcome, "..player.Name
+            local text = script.Parent.Parent.Username
+
+            text.Text = "Username: " .. game.Players.LocalPlayer.Name
+        end
+        coroutine.wrap(SURQ_fake_script)()
+        local function YQCCP_fake_script() -- watext.LocalScript 
+            local script = Instance.new('LocalScript', watext)
+
+            local text = script.Parent.Parent.watext
+
+            local http_request = http_request;
+            if syn then
+                http_request = syn.request
+            else
+                http_request = request
+            end
+
+            while wait(5) do
+                
+                text.Text = "- We made some changes!"
+                wait(5)
+                text.Text = "- This script was made by luki#0069"
+                wait(5)
+                text.Text = "- More updates soon! :)"
             end
         end
-        coroutine.wrap(HHSMWM_fake_script)()
-        local function RGYTU_fake_script() -- username.changer 
-            local script = Instance.new('LocalScript', username)
+        coroutine.wrap(YQCCP_fake_script)()
+        local function ONSSF_fake_script() -- TextButton.LocalScript 
+            local script = Instance.new('LocalScript', TextButton)
 
-            local player = game.Players.LocalPlayer
-            local text = script.Parent
-            
-            while wait(1) do
-                text.Text = player.Name
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-413, 23, -286)
             end
-        end
-        coroutine.wrap(RGYTU_fake_script)()
-        local function EVCTNRB_fake_script() -- Cashaura.LocalScript 
-            local script = Instance.new('LocalScript', Cashaura)
 
-            script.Parent.MouseButton1Click:Connect(function()
-                local localPlayer = game:GetService("Players").LocalPlayer
-                local function booga()
-                    local closestPlayer = nil
-                    local shortestDistance = math.huge
-                    for i, v in pairs(game:GetService("Workspace").Ignored.Drop:GetChildren()) do
-                        if v:FindFirstChild("ClickDetector") then
-                            local magnitude = (v.Position - localPlayer.Character.Head.Position).magnitude
-                            if magnitude < shortestDistance then
-                                closestPlayer = v
-                                shortestDistance = magnitude
-                            end
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(ONSSF_fake_script)()
+        local function MZPROM_fake_script() -- TextButton_2.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_2)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-260, 22, -763)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(MZPROM_fake_script)()
+        local function NINLFE_fake_script() -- TextButton_3.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_3)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(658, 48, -73)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(NINLFE_fake_script)()
+        local function UNVTO_fake_script() -- TextButton_4.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_4)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-932, 22, -483)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(UNVTO_fake_script)()
+        local function MOSNQAL_fake_script() -- TextButton_5.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_5)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-653, 22, 252)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(MOSNQAL_fake_script)()
+        local function BDTR_fake_script() -- TextButton_6.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_6)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-266, 0, -339)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(BDTR_fake_script)()
+        local function NPTG_fake_script() -- TextButton_7.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_7)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(205, 38, 200011)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(NPTG_fake_script)()
+        local function NHRGVC_fake_script() -- TextButton_8.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_8)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72, 139, -686)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(NHRGVC_fake_script)()
+        local function QALRU_fake_script() -- TextButton_9.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_9)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275, 26, -21)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(QALRU_fake_script)()
+        local function AOSAXLW_fake_script() -- TextButton_10.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_10)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(482, 48, -620)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(AOSAXLW_fake_script)()
+        local function XXYN_fake_script() -- TextButton_11.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_11)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-581, 8, -735)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(XXYN_fake_script)()
+        local function IGPQZ_fake_script() -- TextButton_12.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_12)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-872, -38, -585)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(IGPQZ_fake_script)()
+        local function XGCD_fake_script() -- Search_2.LocalScript 
+            local script = Instance.new('LocalScript', Search_2)
+
+            local usname = script.Parent.username
+
+            local button = script.Parent.searchBTN
+            local cash = script.Parent.cash
+            local wanted = script.Parent.wanted
+
+            function leftClick()
+                local fuckkk = script.Parent.UserIMG
+                local aaakakakkakaka = script.Parent.TextBox.Text
+                local player = game:GetService("Players")[aaakakakkakaka]
+
+                local userId = player.UserId
+
+                local thumbType = Enum.ThumbnailType.AvatarBust
+
+                local thumbSize = Enum.ThumbnailSize.Size420x420
+
+                local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+
+                fuckkk.Image = content
+
+                usname.Text = "Username: " .. tostring(aaakakakkakaka)
+                cash.Text = "Money: " .. game:GetService("Players")[tostring(aaakakakkakaka)].DataFolder.Currency.Value
+                wanted.Text = "Wanted: " ..
+                                  game:GetService("Players")[tostring(aaakakakkakaka)].DataFolder.Information.Wanted
+                                      .Value
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(XGCD_fake_script)()
+        local function PJUHTHR_fake_script() -- Main.LocalScript 
+            local script = Instance.new('LocalScript', Main)
+
+            local s = script.Parent.Parent.Main
+
+            s.Draggable = true
+            s.Active = true
+            s.Selectable = true
+        end
+        coroutine.wrap(PJUHTHR_fake_script)()
+
+    end    
+
+    for i, v in pairs(getgenv().alts) do
+        if v == game.Players.LocalPlayer.UserId then
+
+            Clip = false
+
+            local speaker = game.Players.LocalPlayer
+            wait(0.1)
+            local function NoclipLoop()
+                if Clip == false and speaker.Character ~= nil then
+                    for _, child in pairs(speaker.Character:GetDescendants()) do
+                        if child:IsA("BasePart") and child.CanCollide == true and child.Name ~= floatName then
+                            child.CanCollide = false
                         end
                     end
-                    return closestPlayer
                 end
-                game:GetService"RunService".RenderStepped:Connect(function()
-                    fireclickdetector(booga():FindFirstChild("ClickDetector"))
-                end)
-            end)
-        end
-        coroutine.wrap(EVCTNRB_fake_script)()
-
--- Scripts
-        
-for i, v in pairs(getgenv().alts) do
-    if v == game.Players.LocalPlayer.UserId then
-
-        Clip = false
-
-        local speaker = game.Players.LocalPlayer
-        wait(0.1)
-        local function NoclipLoop()
-            if Clip == false and speaker.Character ~= nil then
-                for _, child in pairs(speaker.Character:GetDescendants()) do
-                    if child:IsA("BasePart") and child.CanCollide == true and child.Name ~= floatName then
-                        child.CanCollide = false
+            end
+            Noclipping = game:GetService('RunService').Stepped:Connect(NoclipLoop)
+            workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
+            workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
+            workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
+            workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0
+            game:GetService("Lighting").GlobalShadows = false
+            game:GetService("Lighting").FogEnd = 9e9
+            settings().Rendering.QualityLevel = 1
+            for i, v in pairs(game:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("UnionOperation") or v:IsA("MeshPart") or v:IsA("CornerWedgePart") or
+                    v:IsA("TrussPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                elseif v:IsA("Decal") then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Explosion") then
+                    v.BlastPressure = 1
+                    v.BlastRadius = 1
+                end
+            end
+            for i, v in pairs(game:GetService("Lighting"):GetDescendants()) do
+                if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or
+                    v:IsA("BloomEffect") or v:IsA("DepthOfFieldEffect") then
+                    v.Enabled = false
+                end
+            end
+            workspace.DescendantAdded:Connect(function(child)
+                coroutine.wrap(function()
+                    if child:IsA('ForceField') then
+                        game:GetService('RunService').Heartbeat:Wait()
+                        child:Destroy()
+                    elseif child:IsA('Sparkles') then
+                        game:GetService('RunService').Heartbeat:Wait()
+                        child:Destroy()
+                    elseif child:IsA('Smoke') or child:IsA('Fire') then
+                        game:GetService('RunService').Heartbeat:Wait()
+                        child:Destroy()
                     end
+                end)()
+            end)
+
+            local timeBegan = tick()
+            for i, v in ipairs(workspace:GetDescendants()) do
+                if v:IsA("BasePart") then
+                    v.Material = "SmoothPlastic"
                 end
             end
-        end
-        Noclipping = game:GetService('RunService').Stepped:Connect(NoclipLoop)
-        workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
-        workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
-        workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
-        workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0
-        game:GetService("Lighting").GlobalShadows = false
-        game:GetService("Lighting").FogEnd = 9e9
-        settings().Rendering.QualityLevel = 1
-        for i, v in pairs(game:GetDescendants()) do
-            if v:IsA("Part") or v:IsA("UnionOperation") or v:IsA("MeshPart") or v:IsA("CornerWedgePart") or
-                v:IsA("TrussPart") then
-                v.Material = "Plastic"
-                v.Reflectance = 0
-            elseif v:IsA("Decal") then
-                v.Transparency = 1
-            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
-                v.Lifetime = NumberRange.new(0)
-            elseif v:IsA("Explosion") then
-                v.BlastPressure = 1
-                v.BlastRadius = 1
+            for i, v in ipairs(game:GetService("Lighting"):GetChildren()) do
+                v:Destroy()
             end
-        end
-        for i, v in pairs(game:GetService("Lighting"):GetDescendants()) do
-            if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or
-                v:IsA("BloomEffect") or v:IsA("DepthOfFieldEffect") then
-                v.Enabled = false
-            end
-        end
-        workspace.DescendantAdded:Connect(function(child)
-            coroutine.wrap(function()
-                if child:IsA('ForceField') then
-                    game:GetService('RunService').Heartbeat:Wait()
-                    child:Destroy()
-                elseif child:IsA('Sparkles') then
-                    game:GetService('RunService').Heartbeat:Wait()
-                    child:Destroy()
-                elseif child:IsA('Smoke') or child:IsA('Fire') then
-                    game:GetService('RunService').Heartbeat:Wait()
-                    child:Destroy()
+            local timeEnd = tick() - timeBegan
+            local timeMS = math.floor(timeEnd * 1000)
+
+            local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+            local g = game
+            local w = g.Workspace
+            local l = g.Lighting
+            local t = w.Terrain
+            t.WaterWaveSize = 0
+            t.WaterWaveSpeed = 0
+            t.WaterReflectance = 0
+            t.WaterTransparency = 0
+            l.GlobalShadows = false
+            l.FogEnd = 9e9
+            l.Brightness = 0
+            settings().Rendering.QualityLevel = "Level01"
+            for i, v in pairs(g:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Explosion") then
+                    v.BlastPressure = 1
+                    v.BlastRadius = 1
+                elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+                    v.Enabled = false
+                elseif v:IsA("MeshPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                    v.TextureID = 10385902758728957
                 end
-            end)()
-        end)
-
-        local timeBegan = tick()
-        for i, v in ipairs(workspace:GetDescendants()) do
-            if v:IsA("BasePart") then
-                v.Material = "SmoothPlastic"
             end
-        end
-        for i, v in ipairs(game:GetService("Lighting"):GetChildren()) do
-            v:Destroy()
-        end
-        local timeEnd = tick() - timeBegan
-        local timeMS = math.floor(timeEnd * 1000)
-
-        local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
-        local g = game
-        local w = g.Workspace
-        local l = g.Lighting
-        local t = w.Terrain
-        t.WaterWaveSize = 0
-        t.WaterWaveSpeed = 0
-        t.WaterReflectance = 0
-        t.WaterTransparency = 0
-        l.GlobalShadows = false
-        l.FogEnd = 9e9
-        l.Brightness = 0
-        settings().Rendering.QualityLevel = "Level01"
-        for i, v in pairs(g:GetDescendants()) do
-            if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
-                v.Material = "Plastic"
-                v.Reflectance = 0
-            elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
-                v.Transparency = 1
-            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
-                v.Lifetime = NumberRange.new(0)
-            elseif v:IsA("Explosion") then
-                v.BlastPressure = 1
-                v.BlastRadius = 1
-            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
-                v.Enabled = false
-            elseif v:IsA("MeshPart") then
-                v.Material = "Plastic"
-                v.Reflectance = 0
-                v.TextureID = 10385902758728957
+            for i, e in pairs(l:GetChildren()) do
+                if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or
+                    e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+                    e.Enabled = false
+                end
             end
-        end
-        for i, e in pairs(l:GetChildren()) do
-            if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or
-                e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
-                e.Enabled = false
+
+            local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+            local g = game
+            local w = g.Workspace
+            local l = g.Lighting
+            local t = w.Terrain
+            t.WaterWaveSize = 0
+            t.WaterWaveSpeed = 0
+            t.WaterReflectance = 0
+            t.WaterTransparency = 0
+            l.GlobalShadows = false
+            l.FogEnd = 9e9
+            l.Brightness = 0
+            settings().Rendering.QualityLevel = "Level01"
+            for i, v in pairs(g:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Explosion") then
+                    v.BlastPressure = 1
+                    v.BlastRadius = 1
+                elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+                    v.Enabled = false
+                elseif v:IsA("MeshPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                    v.TextureID = 10385902758728957
+                end
             end
-        end
-
-        local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
-        local g = game
-        local w = g.Workspace
-        local l = g.Lighting
-        local t = w.Terrain
-        t.WaterWaveSize = 0
-        t.WaterWaveSpeed = 0
-        t.WaterReflectance = 0
-        t.WaterTransparency = 0
-        l.GlobalShadows = false
-        l.FogEnd = 9e9
-        l.Brightness = 0
-        settings().Rendering.QualityLevel = "Level01"
-        for i, v in pairs(g:GetDescendants()) do
-            if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
-                v.Material = "Plastic"
-                v.Reflectance = 0
-            elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
-                v.Transparency = 1
-            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
-                v.Lifetime = NumberRange.new(0)
-            elseif v:IsA("Explosion") then
-                v.BlastPressure = 1
-                v.BlastRadius = 1
-            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
-                v.Enabled = false
-            elseif v:IsA("MeshPart") then
-                v.Material = "Plastic"
-                v.Reflectance = 0
-                v.TextureID = 10385902758728957
+            for i, e in pairs(l:GetChildren()) do
+                if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or
+                    e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+                    e.Enabled = false
+                end
             end
-        end
-        for i, e in pairs(l:GetChildren()) do
-            if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or
-                e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
-                e.Enabled = false
+
+            function RandomVariable(length)
+                local res = ""
+                for i = 1, length do
+                    res = res .. string.char(math.random(97, 122))
+                end
+                return res
             end
-        end
-
-        function RandomVariable(length)
-            local res = ""
-            for i = 1, length do
-                res = res .. string.char(math.random(97, 122))
-            end
-            return res
-        end
-        
-        -- GUI
-        game:GetService("RunService"):Set3dRenderingEnabled(false)
-
-        -- Instances:
-
-        local altscreen = Instance.new("ScreenGui")
-        local MainFrame = Instance.new("Frame")
-        local username = Instance.new("TextLabel")
-        local Text = Instance.new("TextLabel")
-
-        --Properties:
-
-        altscreen.Name = "altscreen"
-        altscreen.Parent = game.CoreGui
-        altscreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-        MainFrame.Name = "MainFrame"
-        MainFrame.Parent = altscreen
-        MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-        MainFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-        MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
-        MainFrame.Size = UDim2.new(2, 0, 2, 36)
-
-        username.Name = "username"
-        username.Parent = MainFrame
-        username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        username.BackgroundTransparency = 1.000
-        username.Position = UDim2.new(0.386003524, 0, 0.440377474, 0)
-        username.Size = UDim2.new(0, 517, 0, 50)
-        username.Font = Enum.Font.GothamBlack
-        username.Text = "HOLDER"
-        username.TextColor3 = Color3.fromRGB(44, 44, 44)
-        username.TextSize = 40.000
-
-        Text.Name = "Text"
-        Text.Parent = MainFrame
-        Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Text.BackgroundTransparency = 1.000
-        Text.Position = UDim2.new(0.415933102, 0, 0.478985518, 0)
-        Text.Size = UDim2.new(0, 381, 0, 55)
-        Text.Font = Enum.Font.GothamBlack
-        Text.Text = "Biware's Alt Control"
-        Text.TextColor3 = Color3.fromRGB(44, 44, 44)
-        Text.TextSize = 40.000
-
-        -- Scripts:
-
-        local function TRSF_fake_script() -- username.LocalScript 
-            local script = Instance.new('LocalScript', username)
-
-            local player = game.Players.LocalPlayer
-            local text = script.Parent
             
-            while wait(1) do
-                text.Text = player.Name
+            -- GUI
+            game:GetService("RunService"):Set3dRenderingEnabled(false)
+
+            -- Instances:
+
+            local altscreen = Instance.new("ScreenGui")
+            local MainFrame = Instance.new("Frame")
+            local username = Instance.new("TextLabel")
+            local Text = Instance.new("TextLabel")
+
+            --Properties:
+
+            altscreen.Name = "altscreen"
+            altscreen.Parent = game.CoreGui
+            altscreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+            MainFrame.Name = "MainFrame"
+            MainFrame.Parent = altscreen
+            MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+            MainFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+            MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+            MainFrame.Size = UDim2.new(2, 0, 2, 36)
+
+            username.Name = "username"
+            username.Parent = MainFrame
+            username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            username.BackgroundTransparency = 1.000
+            username.Position = UDim2.new(0.386003524, 0, 0.440377474, 0)
+            username.Size = UDim2.new(0, 517, 0, 50)
+            username.Font = Enum.Font.GothamBlack
+            username.Text = "HOLDER"
+            username.TextColor3 = Color3.fromRGB(44, 44, 44)
+            username.TextSize = 40.000
+
+            Text.Name = "Text"
+            Text.Parent = MainFrame
+            Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Text.BackgroundTransparency = 1.000
+            Text.Position = UDim2.new(0.415933102, 0, 0.478985518, 0)
+            Text.Size = UDim2.new(0, 381, 0, 55)
+            Text.Font = Enum.Font.GothamBlack
+            Text.Text = "Biware's Alt Control"
+            Text.TextColor3 = Color3.fromRGB(44, 44, 44)
+            Text.TextSize = 40.000
+
+            -- Scripts:
+
+            local function TRSF_fake_script() -- username.LocalScript 
+                local script = Instance.new('LocalScript', username)
+
+                local player = game.Players.LocalPlayer
+                local text = script.Parent
+                
+                while wait(1) do
+                    text.Text = player.Name
+                end
             end
-        end
-        coroutine.wrap(TRSF_fake_script)()
+            coroutine.wrap(TRSF_fake_script)()
 
-        coroutine.wrap(TRSF_fake_script)()
+            coroutine.wrap(TRSF_fake_script)()
 
-        local RunService = game:GetService("RunService")
-        local MaxFPS = getgenv().altFPS
-        while true do
-            local t0 = tick()
-            RunService.Heartbeat:Wait()
-            repeat wait()
-            until (t0 + 1 / MaxFPS) < tick()
-        end
+            local RunService = game:GetService("RunService")
+            local MaxFPS = getgenv().altFPS
+            while true do
+                local t0 = tick()
+                RunService.Heartbeat:Wait()
+                repeat wait()
+                until (t0 + 1 / MaxFPS) < tick()
+            end
+            end
         end
     end
 end
