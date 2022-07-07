@@ -7,7 +7,7 @@ if game.PlaceId == 2788229376 then
         vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
     end)
 
-    getgenv().emoji = '💲'
+    getgenv().emoji = '🧃'
     local NewList = {}
     for i,v in pairs(alts) do table.insert(NewList,v) end
 
