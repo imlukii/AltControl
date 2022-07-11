@@ -148,7 +148,18 @@ if game.PlaceId == 2788229376 then
             if Player.UserId == getgenv().controller then
 
                 local finalMsg = Message:lower()
-
+            if finalMsg == getgenv().prefix .. "setup admin" then
+                if game.Players.LocalPlayer.UserId == getgenv().controller then
+                    game.Players.LocalPlayer.Character.Head.Anchored = false
+                    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-871.923, -32.6512, -652.828))
+                end
+            end
+            if finalMsg == getgenv().prefix .. "setup bank" then
+                if game.Players.LocalPlayer.UserId == getgenv().controller then
+                    game.Players.LocalPlayer.Character.Head.Anchored = false
+                    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-399.211, 22.3249, -321.475))
+                end
+            end
                 for i, v in pairs(getgenv().alts) do
                     if v == plr.UserId then
                         if finalMsg == getgenv().prefix .. "fly" .. plr.Name:lower() then
@@ -974,20 +985,12 @@ if game.PlaceId == 2788229376 then
 
                         if finalMsg == getgenv().prefix .. "bringalts" then
                             game.Players.LocalPlayer.Character.Head.Anchored = false
-                            PlayerHumanoid.RootPart.CFrame = LastTargetPosition + LastTargetPosition.LookVector * Length
-                            PlayerHumanoid.RootPart.CFrame =
-                                CFrame.new(PlayerHumanoid.RootPart.CFrame.Position, Vector3.new(
-                                    LastTargetPosition.Position.X, PlayerHumanoid.RootPart.CFrame.Position.Y,
-                                    LastTargetPosition.Position.Z))
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[game.Players:GetNameFromUserIdAsync(getgenv().controller)].Character.HumanoidRootPart.CFrame
                         end
 
                         if finalMsg == getgenv().prefix .. "bring" .. plr.Name:lower() then
                             game.Players.LocalPlayer.Character.Head.Anchored = false
-                            PlayerHumanoid.RootPart.CFrame = LastTargetPosition + LastTargetPosition.LookVector * Length
-                            PlayerHumanoid.RootPart.CFrame =
-                                CFrame.new(PlayerHumanoid.RootPart.CFrame.Position, Vector3.new(
-                                    LastTargetPosition.Position.X, PlayerHumanoid.RootPart.CFrame.Position.Y,
-                                    LastTargetPosition.Position.Z))
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[game.Players:GetNameFromUserIdAsync(getgenv().controller)].Character.HumanoidRootPart.CFrame
                         end
 
                         if finalMsg == getgenv().prefix .. "freeze" then
