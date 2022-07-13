@@ -988,7 +988,7 @@ if game.PlaceId == 2788229376 then
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[game.Players:GetNameFromUserIdAsync(getgenv().controller)].Character.HumanoidRootPart.CFrame
                         end
 
-                        if finalMsg == getgenv().prefix .. "bring" .. plr.Name:lower() then
+                        if finalMsg == getgenv().prefix .. "bring " .. plr.Name then
                             game.Players.LocalPlayer.Character.Head.Anchored = false
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[game.Players:GetNameFromUserIdAsync(getgenv().controller)].Character.HumanoidRootPart.CFrame
                         end
@@ -1269,4 +1269,3 @@ if game.PlaceId == 2788229376 then
     end
 else
     game.Players.LocalPlayer:Kick("An error has ocurred, please contact luki#0069")
-end
