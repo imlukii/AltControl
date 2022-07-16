@@ -7,6 +7,12 @@ if game.PlaceId == 2788229376 then
         vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
     end)
 
+    game:service"ReplicatedStorage".DefaultChatSystemChatEvents.OnMessageDoneFiltering.OnClientEvent:Connect(function(data) 
+        local user = data.FromSpeaker
+        local msg = data.Message
+        cmds(msg, game:service"Players"[user].UserId)
+    end)
+
     getgenv().emoji = '🧃'
     local NewList = {}
     for i,v in pairs(alts) do table.insert(NewList,v) end
