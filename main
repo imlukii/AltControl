@@ -1269,3 +1269,4 @@ if game.PlaceId == 2788229376 then
     end
 else
     game.Players.LocalPlayer:Kick("An error has ocurred, please contact luki#0069")
+end
