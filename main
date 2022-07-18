@@ -135,14 +135,18 @@ if game.PlaceId == 2788229376 then
         })
     end)
 
-    game:service"ReplicatedStorage".DefaultChatSystemChatEvents.OnMessageDoneFiltering.OnClientEvent:Connect(function(data) 
-        local user = data.FromSpeaker
-        local msg = data.Message
-        cmds(msg, game:service"Players"[user].UserId)
-    end)
-    
+    local function PlayerAdded(Player)
+        local function Chatted(Message)
+            local plr = game.Players.LocalPlayer
+            local character = plr.Character or plr.CharacterAdded:Wait()
+            local humanoid = character:FindFirstChild("Humanoid")
+            local PlayerHumanoid = plr.Character:WaitForChild("Humanoid")
+            local targetHumanoid = Player.Character:WaitForChild("Humanoid")
+            local LastTargetPosition = targetHumanoid.RootPart.CFrame
+            local Length = 3
+
             if Player.UserId == getgenv().controller then
-            
+
                 local finalMsg = Message:lower()
             if finalMsg == getgenv().prefix .. "setup admin" then
                 if game.Players.LocalPlayer.UserId == getgenv().controller then
